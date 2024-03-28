@@ -1,0 +1,71 @@
+body {
+    background: rgb(198,184,155);
+    background: radial-gradient(circle, rgba(198,184,155,1) 0%, rgba(228,223,212,1) 100%);
+}
+
+.card {
+    height: unset;
+    margin-top: 20px;
+
+    flex: 0 0 200px;
+    margin: 10px;
+}
+
+#menuItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.card-header {
+    background: rgb(250,161,0);
+    background: linear-gradient(180deg, rgba(250,161,0,1) 0%, rgba(238,208,17,1) 100%);
+}
+
+.card-img-top {
+    width: 60%; 
+    height: auto;
+}
+
+.card-body {
+    max-height: unset; 
+    overflow-y: hidden;
+}
+
+.card-footer {
+    background: rgb(250,161,0);
+    background: linear-gradient(180deg, rgba(250,161,0,1) 0%, rgba(238,208,17,1) 100%);; 
+}
+
+.search-card {
+    width: 200px; 
+    margin: 10px;
+}
+
+
+.search-image {
+    max-height: 100px; 
+    object-fit: cover; 
+}
+
+.btn-primary {
+    background-color: #f8f9fa; 
+    color: #000; 
+}
+
+.btn-primary:hover {
+    background: rgb(253,221,45);
+    background: linear-gradient(180deg, rgba(253,221,45,0) 0%, rgba(253,45,45,0.8701855742296919) 100%);
+}
+
+
+.btn-success {
+    background-color: #61c94a; 
+    color: #000; 
+}
+
+.btn-success:hover {
+    background: rgb(253,221,45);
+    background: linear-gradient(180deg, rgba(253,221,45,0) 0%, rgba(253,45,45,0.8701855742296919) 100%);
+}
